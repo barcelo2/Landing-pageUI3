@@ -1,0 +1,117 @@
+/* Basic Set Up*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #fff;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 65.2%;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 1, 1, 0.475),
+      rgba(12, 12, 12, 0.468)
+    ),
+    url(img1.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+}
+
+.screen {
+  position: absolute;
+  width: 117rem;
+  height: 60.4rem;
+  background-color: transparent;
+  top: 6rem;
+  left: 10rem;
+  border: 8px solid white;
+  border-bottom: none;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+/*Navbar*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 3rem 4rem;
+}
+
+.navbar__logo {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ec5858;
+}
+
+.navbar__logo:hover {
+}
+
+.navbar__link1,
+.navbar__link2,
+.navbar__link3 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-top: -2rem;
+}
+
+.navbar__icon {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+/*Call to action*/
+
+.call2action {
+  position: absolute;
+  top: 18rem;
+  left: 13rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+span {
+  color: #ec5858cb;
+  font-weight: 900;
+  font-size: 7rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.buttonsbook {
+  display: inline-block;
+  margin-top: 4rem;
+}
+
+button {
+  float: left;
+  padding: 1.5rem 3rem;
+  background-color: #ec5858;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  border: none;
+}
+.nobutton {
+  background-color: transparent;
+  margin-left: 2rem;
+  border: 1px solid #fff;
+}
